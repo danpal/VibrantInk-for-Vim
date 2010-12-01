@@ -72,7 +72,7 @@ hi rubyClassVariable  guifg=NONE guibg=NONE gui=NONE
 hi rubyOperator  guifg=#ff6600 guibg=NONE gui=NONE
 hi rubyException  guifg=#dde93d guibg=NONE gui=NONE
 hi rubyPseudoVariable  guifg=NONE guibg=NONE gui=NONE
-hi rubyRailsUserClass  guifg=NONE guibg=NONE gui=NONE
+hi rubyRailsUserClass  guifg=white guibg=NONE gui=NONE
 hi rubyRailsARAssociationMethod  guifg=#999966 guibg=NONE gui=NONE
 hi rubyRailsARMethod  guifg=#999966 guibg=NONE gui=NONE
 hi rubyRailsRenderMethod  guifg=NONE guibg=NONE gui=NONE
