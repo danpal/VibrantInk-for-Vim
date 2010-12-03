@@ -58,7 +58,7 @@ hi rubyClass  guifg=#ff6600 guibg=NONE gui=NONE
 hi rubyFunction  guifg=#ffcc00 guibg=NONE gui=NONE
 hi rubyInterpolationDelimiter  guifg=NONE guibg=NONE gui=NONE
 hi rubySymbol  guifg=#339999 guibg=NONE gui=NONE
-hi rubyConstant  guifg=NONE guibg=NONE gui=NONE
+hi rubyConstant  guifg=WHITE guibg=NONE gui=NONE
 hi rubyStringDelimiter  guifg=#66ff00 guibg=NONE gui=NONE
 hi rubyBlockParameter  guifg=NONE guibg=NONE gui=NONE
 hi rubyInstanceVariable  guifg=white guibg=NONE gui=NONE
