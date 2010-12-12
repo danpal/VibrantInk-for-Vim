@@ -1,13 +1,23 @@
 This is an exact copy of the VibrantInk theme for textmate made
 for Vim. Is not the same as vividchalk, in the sense that this one
 is not based on VibrantInk, but its exactly like VibrantInk.
+Also the vibrantink.vim that comes with Color Sampler is quite 
+off the real vibrantink theme.
+
 
 INSTALLATION:
 
-Simply clone this repository into ~/.vim/
+Simply download vibrantink.vim to ~/.vim/colors/
 
-cd ~/vim/
-git clone git@github.com:danpal/VIbrantInk-for-Vim.git
 
-or just donwload and copy the colors directory into ~/.vim/
+If you want to track it and already have other colors, for example if you installed janus vim or Vim Color Sampler then:
+do:
+
+mv ~/.vim/colors/vibrantink.vim vibrantink-old.vim
+git clone --no-checkout git@github.com:danpal/VibrantInk-for-Vim.git ~/.vim/colors/colors.tmp
+mv ~/.vim/colors/colors.tmp/.git ~/.vim/colors/
+rm -rf ~/.vim/colors/colors.tmp/
+cd ~/.vim/colors/
+git reset --hard HEAD
+
 
