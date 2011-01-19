@@ -1,6 +1,6 @@
 " Vim color file
 " Converted from Textmate theme Vibrant Ink using Coloration v0.2.5 (http://github.com/sickill/coloration)
-
+" #212722
 set background=dark
 highlight clear
 
@@ -21,12 +21,12 @@ hi StatusLine  guifg=#ffffff guibg=#303030 gui=bold
 hi StatusLineNC  guifg=#ffffff guibg=#303030 gui=NONE
 hi Pmenu  guifg=NONE guibg=NONE gui=NONE
 hi PmenuSel  guifg=NONE guibg=#2e4034 gui=NONE
-hi IncSearch  guifg=NONE guibg=#542200 gui=NONE
-hi Search  guifg=NONE guibg=#542200 gui=NONE
+hi IncSearch  guifg=#FA3253 guibg=#83A1A8 gui=NONE
+hi Search  guifg=#ffffff guibg=#455354 gui=NONE
 hi Directory  guifg=#339999 guibg=NONE gui=NONE
 hi Folded  guifg=#9933cc guibg=#000000 gui=NONE
 
-hi Normal  guifg=#ffffff guibg=#121212 gui=NONE
+hi Normal  guifg=#ffffff guibg=#161616 gui=NONE
 hi Boolean  guifg=#339999 guibg=NONE gui=NONE
 hi Character  guifg=#339999 guibg=NONE gui=NONE
 hi Comment  guifg=#9933cc guibg=NONE gui=NONE
@@ -40,12 +40,12 @@ hi Function  guifg=#ffcc00 guibg=NONE gui=NONE
 hi Identifier  guifg=#A8D4AB guibg=NONE gui=italic
 hi Keyword  guifg=#ff6600 guibg=NONE gui=NONE
 hi Label  guifg=#66ff00 guibg=NONE gui=NONE
-hi NonText  guifg=#404040 guibg=NONE gui=NONE
+hi NonText  guifg=#404040 guibg=#000000 gui=NONE
 hi Number  guifg=#339999 guibg=NONE gui=NONE
 hi Operator  guifg=#ff6600 guibg=NONE gui=NONE
 hi PreProc  guifg=#dde93d guibg=NONE gui=NONE
 hi Special  guifg=#ffffff guibg=NONE gui=NONE
-hi SpecialKey  guifg=#404040 guibg=#333300 gui=NONE
+hi SpecialKey  guifg=#404040 guibg=#222200 gui=NONE
 hi Statement  guifg=NONE guibg=NONE gui=NONE
 hi StorageClass  guifg=NONE guibg=NONE gui=NONE
 hi String  guifg=#66ff00 guibg=NONE gui=NONE
@@ -54,6 +54,7 @@ hi Title  guifg=#ffffff guibg=NONE gui=bold
 hi Todo  guifg=#9933cc guibg=NONE gui=inverse,bold
 hi Type  guifg=#A8D4AB guibg=NONE gui=italic
 hi Underlined  guifg=NONE guibg=NONE gui=underline
+hi rubyAccess guifg=#C0CB34 guibg=NONE gui=NONE
 hi rubyClass  guifg=#ff6600 guibg=NONE gui=NONE
 hi rubyFunction  guifg=#ffcc00 guibg=NONE gui=NONE
 hi rubyInterpolationDelimiter  guifg=NONE guibg=NONE gui=NONE
@@ -74,6 +75,8 @@ hi rubyException  guifg=#dde93d guibg=NONE gui=NONE
 hi rubyPseudoVariable  guifg=NONE guibg=NONE gui=NONE
 hi rubyRailsUserClass  guifg=white guibg=NONE gui=NONE
 hi rubyRailsARAssociationMethod  guifg=#999966 guibg=NONE gui=NONE
+hi rubyRailsARClassMethod  guifg=#999966 guibg=NONE gui=NONE
+hi rubyAttribute guifg=#999966 guibg=NONE gui=NONE
 hi rubyRailsARMethod  guifg=#999966 guibg=NONE gui=NONE
 hi rubyRailsRenderMethod  guifg=NONE guibg=NONE gui=NONE
 hi rubyRailsMethod  guifg=NONE guibg=NONE gui=NONE
